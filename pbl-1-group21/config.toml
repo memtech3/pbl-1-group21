@@ -1,0 +1,7 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Fecal Water Contamination"
+theme = "micah"
+[params]
+    slogan = "Clean water for all"
+    twitter = "noneyet"
