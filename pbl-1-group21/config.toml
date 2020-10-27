@@ -5,3 +5,9 @@ theme = "micah"
 [params]
     slogan = "Clean water for all"
     twitter = "noneyet"
+    [[people]]
+        name = "Julian Fernandez"
+        email = "s-------@online.houstonisd.org"
+        personalEmail = "personal@personal.com"
+        picture = "path/to/picture"
+

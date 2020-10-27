@@ -1,0 +1,27 @@
+{{ range $.Site.Params.People }}
+<br>
+text
+    {{ .Name }}
+    <br>
+{{ end }}
+<div class="flex four grow content">
+    <div>
+        <article class="card noborder">
+            <img src="/img/forest.jpg">
+            <footer>
+                <h3>Misty Forest</h3>
+                <p>School Email: <a href="mailto:email@email.com">email@email.com</a></p>
+                <p>Personal Email: <a href="mailto:email@email.com">email@email.com</a></p>
+            </footer>
+        </article>
+    </div>
+    <div>
+        <article class="card noborder">
+            <img src="/img/forest.jpg">
+            <footer>
+                <h3>Misty Forest</h3>
+                <button>Like</button>
+            </footer>
+        </article>
+    </div>
+</div>
