@@ -1,6 +1,6 @@
 <nav class="demo">
   <a href="#" class="brand">
-    <span>Heavy Metal Water Crises</span>
+    <span>{{ $.Site.Title }}</span>
   </a>
 
   <!-- responsive-->
@@ -8,6 +8,10 @@
   <label for="bmenub" class="burger pseudo button">menu</label>
 
   <div class="menu">
-    <a href="{{ $.Site.Params.Twitter }}" target="_blank" class="cdn"><img src="Twitter_Logo_Blue.svg" height="40em"alt=""></a>
+    {{ range $.Site.Params.navLinks }}
+          <a href="{{ .link }}" class="pseudo button">{{ .name }}</a>
+    {{ end }}
+    <a href="{{ $.Site.Params.Twitter }}" target="_blank" class="psuedo button"><img src="Twitter_Logo_Blue.svg" alt=""></a>
   </div>
+  <br><br><div class="alert alert-disabled center">This website was created in October of 2020 for an Energy Institute High School Cohort 6 Project. Information on this site was last updated October 2020</div>
 </nav>

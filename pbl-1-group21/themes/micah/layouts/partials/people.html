@@ -1,10 +1,10 @@
-<div class="flex four grow content">
+<div class="flex four grow content" id="people">
 {{ range $.Site.Params.People }}
             <article class="card noborder" style="text-align: center;">
                 <img class="" style="width: 50%; margin:auto;" src="{{ .picture }}">
                 <footer>
                     <h3>{{ .name }}</h3>
-                    <p>School Email: <a href="mailto:{{ .email }}">email@email.com</a></p>
+                    <p>School Email: <a href="mailto:{{ .email }}">{{ .email }}</a></p>
                     {{ with .personalEmail }}<p>Personal Email: <a href="mailto:{{ . }}">{{ . }}</a></p> {{ end }}
                 </footer>
             </article>
