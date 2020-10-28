@@ -1,27 +1,12 @@
-{{ range $.Site.Params.People }}
-<br>
-text
-    {{ .Name }}
-    <br>
-{{ end }}
 <div class="flex four grow content">
-    <div>
-        <article class="card noborder">
-            <img src="/img/forest.jpg">
-            <footer>
-                <h3>Misty Forest</h3>
-                <p>School Email: <a href="mailto:email@email.com">email@email.com</a></p>
-                <p>Personal Email: <a href="mailto:email@email.com">email@email.com</a></p>
-            </footer>
-        </article>
-    </div>
-    <div>
-        <article class="card noborder">
-            <img src="/img/forest.jpg">
-            <footer>
-                <h3>Misty Forest</h3>
-                <button>Like</button>
-            </footer>
-        </article>
-    </div>
+{{ range $.Site.Params.People }}
+            <article class="card noborder" style="text-align: center;">
+                <img class="" style="width: 50%; margin:auto;" src="{{ .picture }}">
+                <footer>
+                    <h3>{{ .name }}</h3>
+                    <p>School Email: <a href="mailto:{{ .email }}">email@email.com</a></p>
+                    {{ with .personalEmail }}<p>Personal Email: <a href="mailto:{{ . }}">{{ . }}</a></p> {{ end }}
+                </footer>
+            </article>
+{{ end }}
 </div>

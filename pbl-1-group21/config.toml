@@ -5,9 +5,7 @@ theme = "micah"
 [params]
     slogan = "Clean water for all"
     twitter = "noneyet"
-    [[people]]
-        name = "Julian Fernandez"
-        email = "s-------@online.houstonisd.org"
-        personalEmail = "personal@personal.com"
-        picture = "path/to/picture"
+    people = [  {name = "Julian Fernandez", email = "s1560303@online.houstonisd.org", personalEmail = "", picture = "julian cropped.jpg"},
+                {name = "Micah Guttman", email = "s1659616@online.houstonisd.org", personalEmail = "memtech3@gmail.com", picture = "micah cropped.jpg"},
+                {name = "Shikinah Mitchells"}]
 
