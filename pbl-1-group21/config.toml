@@ -3,8 +3,8 @@ languageCode = "en-us"
 title = "Fecal Water Contamination"
 theme = "micah"
 [params]
-    slogan = "Clean water for all"
-    twitter = "noneyet"
+    slogan = "In today’s world, one of the most significant water issues that communities often face revolve around water contamination. This website will focus on the impacts of fecal matter contamination on the health of communities and discuss mitigations that can be applied, even in developing countries."
+    twitter = "https://twitter.com/Group21_EIHS"
     people = [  {name = "Julian Fernandez", email = "s1560303@online.houstonisd.org", personalEmail = "", picture = "julian cropped.jpg"},
                 {name = "Micah Guttman", email = "s1659616@online.houstonisd.org", personalEmail = "memtech3@gmail.com", picture = "micah cropped.jpg"},
                 {name = "Shikinah Mitchell", email = "S1675170@online.houstonisd.org", picture = "shikinah cropped.jpg"},
