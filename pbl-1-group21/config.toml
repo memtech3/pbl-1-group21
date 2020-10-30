@@ -2,6 +2,7 @@ baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "Fecal Water Contamination"
 theme = "micah"
+publishDir = "../docs"
 [params]
     slogan = "In today’s world, one of the most significant water issues that communities often face revolve around water contamination. This website will focus on the impacts of fecal matter contamination on the health of communities and discuss mitigations that can be applied, even in developing countries."
     twitter = "https://twitter.com/Group21_EIHS"
