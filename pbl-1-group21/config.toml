@@ -10,6 +10,8 @@ publishDir = "../docs"
                 {name = "Micah Guttman", email = "s1659616@online.houstonisd.org", personalEmail = "memtech3@gmail.com", picture = "micah cropped.jpg"},
                 {name = "Shikinah Mitchell", email = "S1675170@online.houstonisd.org", picture = "shikinah cropped.jpg"},
                 {name = "Latrice Kennard", email = "S1598317@online.houstonisd.org", picture = "latrice cropped.jpg"}]
-    navLinks = [    {name = "home", link = "#home"},
-                    {name = "people", link = "#people"}]
+    navLinks = [    {name = "Home", link = "#"},
+                    {name = "Historical & Contemporary Cases", link = "#today"},
+                    {name = "Scientific Figures & Evidence", link = "#scientific"},
+                    {name = "People & Bibliography", link = "#people"}]
 
