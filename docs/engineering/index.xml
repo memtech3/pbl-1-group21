@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Fecal Water Contamination</title>
-    <link>http://example.org/</link>
-    <description>Recent content on Fecal Water Contamination</description>
+    <title>Engineerings on Fecal Water Contamination</title>
+    <link>http://example.org/engineering/</link>
+    <description>Recent content in Engineerings on Fecal Water Contamination</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 03 Nov 2020 02:15:35 -0600</lastBuildDate>
     
-	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://example.org/engineering/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -18,15 +18,6 @@
       
       <guid>http://example.org/engineering/default/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>Test</title>
-      <link>http://example.org/test/</link>
-      <pubDate>Thu, 29 Oct 2020 21:30:39 -0500</pubDate>
-      
-      <guid>http://example.org/test/</guid>
-      <description>testtesttest</description>
     </item>
     
   </channel>

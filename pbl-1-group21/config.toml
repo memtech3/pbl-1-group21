@@ -5,13 +5,15 @@ theme = "micah"
 publishDir = "../docs"
 [params]
     slogan = "In today’s world, one of the most significant water issues that communities often face revolve around water contamination. This website will focus on the impacts of fecal matter contamination on the health of communities and discuss mitigations that can be applied, even in developing countries."
-    twitter = "https://twitter.com/Group21_EIHS"
+    twitter = "https://twitter.com/eihsc6_20p1g21"
     people = [  {name = "Julian Fernandez", email = "s1560303@online.houstonisd.org", personalEmail = "", picture = "julian cropped.jpg"},
                 {name = "Micah Guttman", email = "s1659616@online.houstonisd.org", personalEmail = "memtech3@gmail.com", picture = "micah cropped.jpg"},
                 {name = "Shikinah Mitchell", email = "S1675170@online.houstonisd.org", picture = "shikinah cropped.jpg"},
                 {name = "Latrice Kennard", email = "S1598317@online.houstonisd.org", picture = "latrice cropped.jpg"}]
-    navLinks = [    {name = "Home", link = "#"},
-                    {name = "Historical & Contemporary Cases", link = "#today"},
-                    {name = "Scientific Figures & Evidence", link = "#scientific"},
-                    {name = "People & Bibliography", link = "#people"}]
+    navLinks = [    {name = "Home", link = "/#"},
+                    {name = "Historical & Contemporary Cases", link = "/#today"},
+                    {name = "Contamination Process Trace", link = "/#process"},
+                    {name = "Scientific Figures & Evidence", link = "/#scientific"},
+                    {name = "People & Bibliography", link = "/#people"},
+                    {name = "Water Filter Design Process and Video", link = "engineering"}]
 
